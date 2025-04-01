@@ -2,8 +2,10 @@
 
 As the drums of awakening echo through the dawn, let technology be the rhythm that enhances our freedom, guiding us towards a brighter tomorrow
 
-![divine](https://github.com/dawndrums/divine/d/assets/)
 
+<p float="center">
+<kbd><img title="dawndrums" src="dawndrums/assets/dd_logo_v2.png" width="50%" object-fit="cover" /></kbd>
+</p>
 <div align="center">
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -11,10 +13,10 @@ As the drums of awakening echo through the dawn, let technology be the rhythm th
 
 
 <p float="center">
-<img src=".github/dawndrums/divine/d._/assets/dd.rev1.jpg" width="50%" object-fit="cover"/>
+<img src="d._/assets/dd.rev1.jpg" width="50%" object-fit="cover"/>
 </p>
 <sub>
-  Divine D. Parts
+  Divine D.
 </sub>
 </div>
 
@@ -70,12 +72,6 @@ More on this, stay tuned.
 
 PS: If you want to support and contribute, you know what to do. You can always contact us by writing to contact@dawndrums.tn.
 
-[dawndrums](https://github.com/jakkra/divine/assets/4318648/dc3849d7-4618-47a4-8efe-8a909a47fd20)
-
-
-<kbd><img title="dawndrums" src=".github/images/logo.jpg"/></kbd>
-Spiritual Engineering
-
 ## Features
 
 ### Hardware
@@ -121,7 +117,7 @@ Spiritual Engineering
 - Dimensions: 15 mm
 - Weight: TBD
 
-<kbd><img title="HW" src="divine/d._/assets/divine_mb_1.0.jpg"/></kbd>
+<kbd><img title="HW" src="https://github.com/dawndrums/divine/blob/main/d._/assets/divine_mb_1.0.jpg"/></kbd>
 
 ### Software
 #### DawnOS (WIP)
@@ -137,14 +133,12 @@ Spiritual Engineering
 	It works with wayland and we encountered the least issues with it. Phosh also seems to demand less resources compared for example to Plasma Mobile.
 	The latter will not be excluded from improvements but it seems it needs some more optimizations. Plasma home screen is more flexible and features attractive UI.
 	Depending on our workload we will occasionality issue fixes but priority will go to Phosh-based DawnOS.
-	<kbd><img title="HW" src="dawnos/phosh/home_screen.jpg"/></kbd>
-	<kbd><img title="HW" src="dawnos/plasma/home_screen.jpg"/></kbd>
 
 #### Kernel and Drivers
 
 At the time we started with divine development, the vendor kernels such as Armbian and Radxa provided kernels that supported RK3588(S) based boards.
 These kernels come with certain driver support and were more suitable to use than mainline kernel.
-The current [kernel](https://github.com/dawndrums/kernel/) version used for DawnOS is 6.1.x coming with our patches, configuration and device tree to support divine hardware.
+The current kernel version used for DawnOS is 6.1.x coming with our patches, configuration and device tree to support divine hardware.
 Recent changes on the mainline kernel brought several improvements and driver support and is becoming more mature to be adopted for the next iterations of DawnOS.
 Please refer to our doc pages for the latest changes.
 
