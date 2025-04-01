@@ -9,7 +9,7 @@
 
 
 <p float="center">
-<img src="https://github.com/dawndrums/divine/blob/main/d._/assets/dd.rev1.jpg" width="50%" object-fit="cover"/>
+<img src="https://github.com/dawndrums/divine/blob/main/d._/assets/dd.rev1.jpg" width="70%" object-fit="cover"/>
 </p>
 <sub>
   Divine D.
@@ -29,12 +29,7 @@
       - [DawnOS](#dawnos)
       - [Desktop UIs](#ui)
       - [Kernel and Drivers](#kernel)
-  - [Current state](#current_state)
-  - [Upcoming revisions](#upcoming_rev)
-  - [Demos](#demos)
-  - [Release date](#release)
-  - [Build DawnOS](#build_dawnos)
-  - [Developping apps](#Developing)
+  - [Current state](#current-state)
   - [Licence GPL-3.0](#licence-gpl-30)
 
 ## Overview
@@ -59,7 +54,7 @@ The system can effectively enter suspend while being able to accept calls and sm
 While the hardware features provide interesting capabilities, the software needs to be on point to take advantage of all that. This is also part of our commitment for DawnOS.
 We currently have a system that enters desktop UI, connects to WIFI/4G, makes calls and comes with working drivers such a 3D and video acceleration.
 Together with the community, we continuously work to improve the overall stability and robustness.
-Please refer the [Current state](#current_state) for more details.
+Please refer the [Current state](#current-state) for more details.
 
 We chose mobian as our base for its initial stability with support for Phosh and Plasma Mobile UIs. It provides access to a plethora of applications in the Debian repositories.
 This work is coming to life thanks to us at danwdrums :) and the commitment of the open-source community and vendors who promote technological freedom.
@@ -106,6 +101,7 @@ MainPCB Hannibal batch
 - Earpiece interface
 - MainPCB interface
 - Hardware kill-switches for cameras, microphones, connectivity
+
 #### Body
 - Screen: 5.5" AMOLED, 1080x1920 pixels
 - Front Camera: 12 MPixels Sony IMX-378 Front Camera
@@ -128,10 +124,10 @@ MainPCB Hannibal batch
 - U-boot 2017.09
 #### Desktop UIs
 
-    We have tested several desktop UIs, including KDE, Gnome.. A the moment we will further conduct improvement on DawnOS with Phosh UI.
-	It works with wayland and we encountered the least issues with it. Phosh also seems to demand less resources compared for example to Plasma Mobile.
-	The latter will not be excluded from improvements but it seems it needs some more optimizations. Plasma home screen is more flexible and features attractive UI.
-	Depending on our workload we will occasionality issue fixes but priority will go to Phosh-based DawnOS.
+We have tested several desktop UIs, including KDE, Gnome.. A the moment we will further conduct improvement on DawnOS with Phosh UI.
+It works with wayland and we encountered the least issues with it. Phosh also seems to demand less resources compared for example to Plasma Mobile.
+The latter will not be excluded from improvements but it seems it needs some more optimizations. Plasma home screen is more flexible and features attractive UI.
+Depending on our workload we will occasionality issue fixes but priority will go to Phosh-based DawnOS.
 
 #### Kernel and Drivers
 
@@ -150,5 +146,4 @@ Please refer to our [docs](https://docs.dawndrums.tn) for in-depth changes.
 
 ## Licence GPL-3.0
 
-The main difference from MIT is now that if anyone wants to build something more with this, then they need to also open source their changes back to the project, which I think this is fair. This is so everyone can benefit from those improvements. If you think this is wrong free to contact me and I'm open to change the LICENCE.
-
+This work is licenced under GPL-3.0 Licence.
