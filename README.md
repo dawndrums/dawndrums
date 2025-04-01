@@ -4,7 +4,7 @@ As the drums of awakening echo through the dawn, let technology be the rhythm th
 
 
 <p float="center">
-<kbd><img title="dawndrums" src="dawndrums/assets/dd_logo_v2.png" width="50%" object-fit="cover" /></kbd>
+<kbd><img title="dawndrums" src="assets/dd_logo_v2.png" width="50%" object-fit="cover" /></kbd>
 </p>
 <div align="center">
 
@@ -13,7 +13,7 @@ As the drums of awakening echo through the dawn, let technology be the rhythm th
 
 
 <p float="center">
-<img src="d._/assets/dd.rev1.jpg" width="50%" object-fit="cover"/>
+<img src="https://github.com/dawndrums/divine/blob/main/d._/assets/dd.rev1.jpg" width="50%" object-fit="cover"/>
 </p>
 <sub>
   Divine D.
@@ -77,6 +77,10 @@ PS: If you want to support and contribute, you know what to do. You can always c
 ### Hardware
 
 #### MainPCB, Hannibal batch Rev. 1.0
+<kbd><img title="HW" src="https://github.com/dawndrums/divine/blob/main/d._/assets/divine_mb_1.0.jpg"/></kbd>
+<sub>
+MainPCB Hannibal batch
+</sub>
 - A 10-layer HDI board
 - Processor: RK3588S, 4x Cortex-A76 @ 2.4 GHz, 4x Cortex-A55 core @ 1.8 GHz
 - RAM: LPDDR4x, 8 GB, 16 GB
@@ -117,7 +121,6 @@ PS: If you want to support and contribute, you know what to do. You can always c
 - Dimensions: 15 mm
 - Weight: TBD
 
-<kbd><img title="HW" src="https://github.com/dawndrums/divine/blob/main/d._/assets/divine_mb_1.0.jpg"/></kbd>
 
 ### Software
 #### DawnOS (WIP)
