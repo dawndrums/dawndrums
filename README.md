@@ -6,6 +6,8 @@
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![discord](https://img.shields.io/badge/chat-discord-blue?logo=discord&logoColor=white)](https://discord.gg/dEeTTjjB)
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/r/dawndrums)
+[![Matrix.org](https://img.shields.io/badge/Matrix.org-000000?style=for-the-badge&logo=matrix&logoColor=white)](https://matrix.to/#/#dawndrums.tn:matrix.org)
 
 
 <p float="center">
@@ -63,7 +65,7 @@ More on this, stay tuned.
 
 PS: If you want to support and contribute, you know what to do. You can always contact us by writing to contact@dawndrums.tn.
 
-## Features
+## Features (Divine D.)
 
 ### Hardware
 
