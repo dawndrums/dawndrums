@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://dawndrums.tn"><img title="dawndrums" src="assets/dd_logo_v2.png" width="50%"/></a>
+<a href="https://dawndrums.tn"><img title="dawndrums" src="assets/dd_logo_v2.png" width="70%"/></a>
 
 <span style="color: #e1ba66;">As the drums of awakening echo through the dawn, let technology be the rhythm that enhances our freedom, guiding us towards a brighter tomorrow</span>
 
@@ -9,7 +9,7 @@
 
 
 <p float="center">
-<img src="https://github.com/dawndrums/divine/blob/main/d._/assets/dd.rev1.jpg" width="70%" object-fit="cover"/>
+<img src="https://github.com/dawndrums/divine/blob/main/d._/assets/dd.rev1.jpg" width="50%" object-fit="cover"/>
 </p>
 <sub>
   Divine D.
