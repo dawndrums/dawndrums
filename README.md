@@ -152,7 +152,7 @@ We faced some issues with different components, such as PCB design or functional
 These are considered to be fixed in the next design iteration.
 
 For the divine and DawnOS projects, below are the most relevant changes and the actual status.
-Please refer to our [docs](https://docs.dawndrums.tn/Current_state) for in-depth changes.
+Please refer to our [docs](https://docs.dawndrums.tn/docs/Current_state) for in-depth changes.
 
 
 ## Licence GPL-3.0
