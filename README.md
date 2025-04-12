@@ -59,7 +59,7 @@ Together with the community, we continuously work to improve the overall stabili
 Please refer the [Current state](#current-state) for more details.
 
 We chose mobian as our base for its initial stability with support for Phosh and Plasma Mobile UIs. It provides access to a plethora of applications in the Debian repositories.
-This work is coming to life thanks to us at danwdrums :) and the commitment of the open-source community and vendors who promote technological freedom.
+This work is coming to life thanks to us at dawndrums :) and the commitment of the open-source community and vendors who promote technological freedom.
 At the time of writing, this is the World's most powerful and free open-source mobile system.
 More on this, stay tuned.
 
@@ -91,6 +91,7 @@ MainPCB Hannibal batch
 - Audio: ES8388, CS43131
 - Dual Audio amplifiers
 - 6-axis MEMS IMU, Gyroscope and Accelerometer
+- Proximity and light sensor
 - Dual Camera interfaces
 - Dual MIPI interfaces
 - Dual Microphones
@@ -112,7 +113,7 @@ MainPCB Hannibal batch
 - Volume Up/Down and Power button
 - Stereo speakers
 - 3D printable enclosure
-- Dimensions: 15 mm
+- Dimensions: TBD
 - Weight: TBD
 
 
@@ -141,9 +142,17 @@ Please refer to our doc pages for the latest changes.
 
 ### Current state
 
+
 There is always work in progress, whether we issue fixes and improvements or add new features.
+Right now the system boots to home screen. GPU and VPU acceleration are working.
+
+<kbd><img title="HW" src="https://github.com/dawndrums/divine/blob/main/d._/assets/IMG_4082.jpeg"/></kbd>
+
+We faced some issues with different components, such as PCB design or functionality errors.
+These are considered to be fixed in the next design iteration.
+
 For the divine and DawnOS projects, below are the most relevant changes and the actual status.
-Please refer to our [docs](https://docs.dawndrums.tn) for in-depth changes.
+Please refer to our [docs](https://docs.dawndrums.tn/Current_state) for in-depth changes.
 
 
 ## Licence GPL-3.0
