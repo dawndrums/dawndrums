@@ -18,6 +18,8 @@
 </sub>
 </div>
 
+Update:
+Watch first boot into Gnome and Demo for VPU acceleration: [Divine D. Demo](https://www.youtube.com/shorts/qcMIeTOkewY)
 ## Table of content
 
 - [Divine](#divine)
