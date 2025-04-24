@@ -19,7 +19,8 @@
 </div>
 
 Update:
-Added u-boot for Divine d. and build scripts
+Added u-boot for Divine d. and build scripts.
+
 Watch first boot into Gnome and Demo for VPU acceleration: [Divine D. Demo](https://www.youtube.com/shorts/qcMIeTOkewY)
 ## Table of content
 
