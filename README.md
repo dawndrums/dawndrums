@@ -5,8 +5,8 @@
 
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/dEeTTjjB)
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?logo=reddit&logoColor=white)](https://reddit.com/r/dawndrums)
+[![discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/HVb5jNBTRH)
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?logo=reddit&logoColor=white)](https://reddit.com/r/dawndrumsdev)
 [![Matrix.org](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=fff)](https://matrix.to/#/#dawndrums.tn:matrix.org)
 
 
@@ -19,6 +19,7 @@
 </div>
 
 Update:
+Added u-boot for Divine d. and build scripts
 Watch first boot into Gnome and Demo for VPU acceleration: [Divine D. Demo](https://www.youtube.com/shorts/qcMIeTOkewY)
 ## Table of content
 
@@ -121,7 +122,7 @@ MainPCB Hannibal batch
 
 ### Software
 #### DawnOS (WIP)
-- Native Linux® based on mobian/debian, release 02.2025
+- Native Linux® based on mobian/debian
 - Security and Privacy by design
 - Phosh and Plasma mobile desktop UIs
 - Device Tree configuration
