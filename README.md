@@ -18,8 +18,9 @@
 </sub>
 </div>
 
-Update:
-Added u-boot for Divine d. and build scripts.
+Update (11.05.2025)
+
+Bluetooth is now running.
 
 Watch first boot into Gnome and Demo for VPU acceleration: [Divine D. Demo](https://www.youtube.com/shorts/qcMIeTOkewY)
 ## Table of content
@@ -41,7 +42,7 @@ Watch first boot into Gnome and Demo for VPU acceleration: [Divine D. Demo](http
 ## Overview
 
 Divine is an open-source mobile system running a native Linux distribution [DawnOS](https://www.github/dawndrums/dawnos/).
-Divine is powered with the SoC RK3588S, an octa-core and highly capable SoC with Armv8 architecture and 3nm process. The D. variant known as "Divine D." focuses on delivering 
+Divine is powered with the SoC RK3588S, an octa-core and highly capable SoC with Armv8 architecture and 8 nm process. The D. variant known as "Divine D." focuses on delivering 
 a system that's also for developing purposes and tests, much like a development kit, except that it comes as a fully functional mobile system. Yes, it runs "Doom" and makes calls.
 For the first time, an open-source mobile system brings local AI to its set of applications.
 With the integrated 3-core NPU and up to 16 GB of RAM (32 GB MAX) Divine D. is able to run LLMs and smaller models Offline and Local, pushing private and portable AI to unprecedented level.
@@ -95,7 +96,6 @@ MainPCB Hannibal batch
 - Audio: ES8388, CS43131
 - Dual Audio amplifiers
 - 6-axis MEMS IMU, Gyroscope and Accelerometer
-- Proximity and light sensor
 - Dual Camera interfaces
 - Dual MIPI interfaces
 - Dual Microphones
@@ -155,8 +155,7 @@ Right now the system boots to home screen. GPU and VPU acceleration are working.
 We faced some issues with different components, such as PCB design or functionality errors.
 These are considered to be fixed in the next design iteration.
 
-For the divine and DawnOS projects, below are the most relevant changes and the actual status.
-Please refer to our [docs](https://docs.dawndrums.tn/docs/Current_state) for in-depth changes.
+For the divine and DawnOS projects, please refer to our [docs](https://docs.dawndrums.tn/docs/Current_state) for in-depth changes and the actual status.
 
 
 ## Licence GPL-3.0
