@@ -7,9 +7,8 @@
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/HVb5jNBTRH)
 [![Matrix.org](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=fff)](https://matrix.to/#/#dawndrums.tn:matrix.org)
-<a href="https://librepay.com/your-username/donate" target="_blank">
-    <img src="https://librepay.com/assets/buttons/donate.svg" alt="Donate with Librepay" />
-</a>
+
+
 
 <p float="center">
 <img src="https://github.com/dawndrums/divine/blob/main/d._/assets/dd.rev1.jpg" width="50%" object-fit="cover"/>
@@ -35,6 +34,7 @@ Divine D. boots into Gnome and Demo for VPU acceleration: [Divine D. Demo](https
       - [Kernel and Drivers](#kernel)
   - [Current state](#current-state)
   - [Licence GPL-3.0](#licence-gpl-30)
+  - Support
 
 ## Overview
 
@@ -158,3 +158,6 @@ For the divine and DawnOS projects, please refer to our [docs](https://docs.dawn
 ## Licence GPL-3.0
 
 This work is licenced under GPL-3.0 Licence.
+
+## Support
+[![Libreapay](https://img.shields.io/liberapay/receives/:entity)](https://liberapay.com/dawndrums/donate)
