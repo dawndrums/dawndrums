@@ -160,4 +160,6 @@ For the divine and DawnOS projects, please refer to our [docs](https://docs.dawn
 This work is licenced under GPL-3.0 Licence.
 
 ## Support
+We use the contribtions to support us manufacture prototypes, maintain software and CI/CD infrastructure as well as developement costs for software and hardware
 [![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/dawndrums/donate)
+If you wish to have different means of payment, please reach out to contact@dawndrums.tn
