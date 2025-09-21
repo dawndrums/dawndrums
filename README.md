@@ -160,4 +160,4 @@ For the divine and DawnOS projects, please refer to our [docs](https://docs.dawn
 This work is licenced under GPL-3.0 Licence.
 
 ## Support
-[![Libreapay](https://img.shields.io/liberapay/receives/:entity)](https://liberapay.com/dawndrums/donate)
+[![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/dawndrums/donate)
