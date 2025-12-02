@@ -87,7 +87,7 @@ MainPCB Hannibal batch
 - VPU: Video decoder – 8Kp60 H.265, VP9, AVS2, 8Kp30 H.264 AVC/MVC, 4Kp60 AV1, 1080p60 MPEG-2/-1, VC-1, VP8 Video encoder – 8Kp30 H.265/H.264 video encoder
 - 3x NPU Cores, 6 TFLOPS 
 - eMMC 64 GB, 128 GB, 256 GB
-- ![New] (https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) microSD Express with backward compatibility
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) microSD Express with backward compatibility
 - AP6275P WIFI 6, Bluetooth 5.3
 - Ports: USB-C, 3.5 mm Jack
 - 5A battery fast charger
