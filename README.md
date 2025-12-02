@@ -76,9 +76,9 @@ PS: We're available on several channels. You can also contact us by writing to c
 ### Hardware
 
 #### MainPCB, Hannibal batch Rev. 1.1
-<kbd><img title="HW" src="https://github.com/dawndrums/divine/blob/main/d._/assets/rev1.1/MainPCB_Rev1.1.png"/></kbd>
+<kbd><img title="Rev1.1" src="https://github.com/dawndrums/divine/blob/main/d._/assets/rev1.1/MainPCB_Rev1.1.png"/></kbd>
 <sub>
-MainPCB Hannibal batch
+Divine D. Rev. 1.1
 </sub>
 - A 10-layer HDI board
 - Processor: RK3588S, 4x Cortex-A76 @ 2.4 GHz, 4x Cortex-A55 core @ 1.8 GHz
