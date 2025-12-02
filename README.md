@@ -7,6 +7,7 @@
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/HVb5jNBTRH)
 [![Matrix.org](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=fff)](https://matrix.to/#/#dawndrums.tn:matrix.org)
+[![Mastodon](https://img.shields.io/badge/Mastodon-000?logo=mastodon&logoColor=fff)](https://mastodon.social/@dawndrums)
 
 
 
@@ -18,7 +19,7 @@
 </sub>
 </div>
 
-Divine D. boots into Gnome and Demo for VPU acceleration: [Divine D. Demo](https://www.youtube.com/shorts/qcMIeTOkewY)
+
 ## Table of content
 
 - [Divine](#divine)
@@ -51,39 +52,42 @@ Divine D. supports currently fast charging up to 27 W (9V 3A) with Power-deliver
 An AMOLED, 5.5" 1080P screen is accommodated for lively colors and deep blacks. 
 
 Being a portable device, the power consumption is always a concern and we're committed to optimize and balance out power consumption and performance.
-We intend to use a minimum of 4800 mAh battery, depending on the final body size.
+We intend to use a high capacity battery, depending on the final body size.
 The RK3588S can a already dynamically perform in an on-demand scheme with respect to the load and ultimately can enter suspend to demand less than 80 mA @ 4.2V.
-The system can effectively enter suspend while being able to accept calls and sms (duty-cycled RF). We work also here to make this as stable as possible.
+The system can effectively enter suspend while being able to accept calls and SMS (duty-cycled RF). We work also here to make this as stable as possible.
+
+Divine D. can now be interfaced with other accessories through a pogo interface, exposing several buses, including USB2, debug UART, I2C, JTAG, I²C and GPIOs.
+This enables a wide range of connected devices and can directly interact with the Divine D. system.
+Rev. 1.1 of the Divine D. introduces LoRa connectivity, microSD express, and HDMI output, elevating the open-source smartphone to a new level.
 
 While the hardware features provide interesting capabilities, the software needs to be on point to take advantage of all that. This is also part of our commitment for DawnOS.
 We currently have a system that enters desktop UI, connects to WIFI/4G, makes calls and comes with working drivers such a 3D and video acceleration.
-Together with the community, we continuously work to improve the overall stability and robustness.
+Together with the community, we continuously work to add new features and improve the overall stability and robustness.
 Please refer the [Current state](#current-state) for more details.
 
 We chose mobian as our base for its initial stability with support for Phosh and Plasma Mobile UIs. It provides access to a plethora of applications in the Debian repositories.
 This work is coming to life thanks to us at dawndrums :) and the commitment of the open-source community and vendors who promote technological freedom.
 At the time of writing, this is the World's most powerful and free open-source mobile system.
-More on this, stay tuned.
 
-PS: If you want to support and contribute, you know what to do. You can always contact us by writing to contact@dawndrums.tn.
+PS: We're available on several channels. You can also contact us by writing to contact@dawndrums.tn.
 
 ## Features (Divine D.)
 
 ### Hardware
 
-#### MainPCB, Hannibal batch Rev. 1.0
-<kbd><img title="HW" src="https://github.com/dawndrums/divine/blob/main/d._/assets/divine_mb_1.0.jpg"/></kbd>
+#### MainPCB, Hannibal batch Rev. 1.1
+<kbd><img title="HW" src="https://github.com/dawndrums/divine/blob/main/d._/assets/rev1.1/MainPCB_Rev1.1.png"/></kbd>
 <sub>
 MainPCB Hannibal batch
 </sub>
 - A 10-layer HDI board
 - Processor: RK3588S, 4x Cortex-A76 @ 2.4 GHz, 4x Cortex-A55 core @ 1.8 GHz
-- RAM: LPDDR4x, 8 GB, 16 GB
+- RAM: LPDDR4x, 8 GB, 16 GB, 32 GB
 - GPU: Arm Mali-G610 "Odin"
 - VPU: Video decoder – 8Kp60 H.265, VP9, AVS2, 8Kp30 H.264 AVC/MVC, 4Kp60 AV1, 1080p60 MPEG-2/-1, VC-1, VP8 Video encoder – 8Kp30 H.265/H.264 video encoder
 - 3x NPU Cores, 6 TFLOPS 
 - eMMC 64 GB, 128 GB, 256 GB
-- microSD
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 microSD Express with backward compatibility
 - AP6275P WIFI 6, Bluetooth 5.3
 - Ports: USB-C, 3.5 mm Jack
 - 5A battery fast charger
@@ -97,20 +101,25 @@ MainPCB Hannibal batch
 - Dual MIPI interfaces
 - Dual Microphones
 - Debug: USB Maskrom, UART and JTAG/SWD
-- mini-PCIe Interface for 4G/GSM
-- SecondPCB interface
-#### SecondPCB Rev. 1.0
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 M.2 3042 Interface for 4G/GSM
 - Proximity and light sensor
-- RGB LED
 - Earpiece interface
-- MainPCB interface
 - Hardware kill-switches for cameras, microphones, connectivity
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 LoRa Module
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Micro HDMI
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Under-voltage battery monitor
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 18-pin Pogo Interface
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Haptic Engine
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Power switches
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Battery switch
+- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Indicator and IR LEDs
+
 
 #### Body
 - Screen: 5.5" AMOLED, 1080x1920 pixels
 - Front Camera: 12 MPixels Sony IMX-378 Front Camera
 - Rear Camera: 48 MPixels, Sony IMX-586 Rear Camera
-- Battery: min  4800 mAh
+- Battery: TBD
 - Volume Up/Down and Power button
 - Stereo speakers
 - 3D printable enclosure
@@ -124,7 +133,7 @@ MainPCB Hannibal batch
 - Security and Privacy by design
 - Phosh and Plasma mobile desktop UIs
 - Device Tree configuration
-- Custom Kernel based on vendor Kernel 6.1.84 and soon the [upcoming Mainline Kernel](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/notes-for-rockchip-3588/-/blob/main/mainline-status.md)
+- Custom Kernel based on vendor Kernel 6.x.x and soon the [upcoming Mainline Kernel](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/notes-for-rockchip-3588/-/blob/main/mainline-status.md)
 - U-boot 2017.09
 #### Desktop UIs
 
@@ -143,7 +152,6 @@ Please refer to our doc pages for the latest changes.
 
 ### Current state
 
-
 There is always work in progress, whether we issue fixes and improvements or add new features.
 Right now the system boots to home screen. GPU and VPU acceleration are working.
 
@@ -160,5 +168,5 @@ For the divine and DawnOS projects, please refer to our [docs](https://docs.dawn
 This work is licenced under GPL-3.0 Licence.
 
 ## Support [![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/dawndrums/donate)
-We use the contribtions to support us manufacture prototypes, maintain software and CI/CD infrastructure as well as developement costs for software and hardware.
+We use the contributions to support us manufacture prototypes, maintain software and CI/CD infrastructure as well as development costs for software and hardware.
 If you wish to have different means of payment, please reach out to contact@dawndrums.tn.
