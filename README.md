@@ -101,18 +101,18 @@ MainPCB Hannibal batch
 - Dual MIPI interfaces
 - Dual Microphones
 - Debug: USB Maskrom, UART and JTAG/SWD
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 M.2 3042 Interface for 4G/GSM
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) M.2 3042 Interface for 4G/GSM
 - Proximity and light sensor
 - Earpiece interface
 - Hardware kill-switches for cameras, microphones, connectivity
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 LoRa Module
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Micro HDMI
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Under-voltage battery monitor
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 18-pin Pogo Interface
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Haptic Engine
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Power switches
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Battery switch
-- ![New] https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0 Indicator and IR LEDs
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) LoRa Module
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Micro HDMI
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Under-voltage battery monitor
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) 18-pin Pogo Interface
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Haptic Engine
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Power switches
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Battery switch
+- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Indicator and IR LEDs
 
 
 #### Body
