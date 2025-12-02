@@ -169,6 +169,8 @@ This work is licenced under GPL-3.0 Licence.
 
 ## Support 
 We use the contributions to support us manufacture prototypes, maintain software and CI/CD infrastructure as well as development costs for software and hardware.
-You can contribute though Liberapay
+You can contribute though Liberapay:
+
 [![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/dawndrums/donate)
+
 If you wish to have different means of payment, please reach out to contact@dawndrums.tn.
