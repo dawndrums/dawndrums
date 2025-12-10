@@ -39,7 +39,7 @@
 
 ## Overview
 
-Divine is an open-source mobile system running a native Linux distribution [DawnOS](https://www.github/dawndrums/dawnos/).
+Divine is an open-source mobile system running a native Linux distribution [DawnOS](https://www.github.com/dawndrums/dawnos/).
 Divine is powered with the SoC RK3588S, an octa-core and highly capable SoC with Armv8 architecture and 8 nm process. The D. variant known as "Divine D." focuses on delivering 
 a system that's also for developing purposes and tests, much like a development kit, except that it comes as a fully functional mobile system. Yes, it runs "Doom" and makes calls.
 For the first time, an open-source mobile system brings local AI to its set of applications.
