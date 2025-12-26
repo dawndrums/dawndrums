@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/HVb5jNBTRH)
-[![Matrix.org](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=fff)](https://matrix.to/#/#dawndrums.tn:matrix.org)
+[![Matrix.org](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=fff)](https://matrix.to/#/#dawndrums-r2:matrix.org)
 [![Mastodon](https://img.shields.io/badge/Mastodon-000?logo=mastodon&logoColor=fff)](https://mastodon.social/@dawndrums)
 
 
@@ -43,7 +43,7 @@ Divine is an open-source mobile system running a native Linux distribution [Dawn
 Divine is powered with the SoC RK3588S, an octa-core and highly capable SoC with Armv8 architecture and 8 nm process. The D. variant known as "Divine D." focuses on delivering 
 a system that's also for developing purposes and tests, much like a development kit, except that it comes as a fully functional mobile system. Yes, it runs "Doom" and makes calls.
 For the first time, an open-source mobile system brings local AI to its set of applications.
-With the integrated 3-core NPU and up to 16 GB of RAM (32 GB MAX) Divine D. is able to run LLMs and smaller models Offline and Local, pushing private and portable AI to unprecedented level.
+With the integrated 3-core NPU and up to 32 GB of RAM. Divine D. is able to run LLMs and smaller models Offline and Local, pushing private and portable AI to unprecedented level.
 The RK3588S features a set of high performance subsystems, most notably the Mali GPU and the VPU up to 8k of video playback. 
 Divine D. comes currently with dual-cameras, front (12 MP, imx-378) and rear (48MP imx-586) Sony® sensors to provide excellent image quality for low-light and color accuracy.
 We bring also the world-class DAC, Cirrus CS43131, a tiny and mighty audio processor for excellent high fidelity Music playback on the 3.5 mm jack.
