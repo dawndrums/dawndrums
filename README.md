@@ -1,7 +1,8 @@
 <div align="center">
 
 <a href="https://dawndrums.tn"><img title="dawndrums" alt="dawndrums" src="assets/dd_logo_v2.png" width="70%" /></a>
-As the drums of awakening echo through the dawn, let technology be the rhythm that enhances our freedom, guiding us towards a brighter tomorrow
+<p>As the drums of awakening echo through the dawn, let technology be the rhythm that enhances our freedom, guiding us towards a brighter tomorrow</p>
+
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](#license)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/HVb5jNBTRH)
