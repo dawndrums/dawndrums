@@ -2,11 +2,6 @@
 
 <a href="https://dawndrums.tn"><img title="dawndrums" alt="dawndrums" src="assets/dd_logo_v2.png" width="70%" /></a>
 As the drums of awakening echo through the dawn, let technology be the rhythm that enhances our freedom, guiding us towards a brighter tomorrow
-# Divine D.
-
-
-
-
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](#license)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/HVb5jNBTRH)
@@ -53,7 +48,7 @@ The platform also provides room to explore on-device AI, camera processing, mult
 
 ## Current status
 
-**Development snapshot: October 2026 — MVP · Linux 7.1.0 · MainPCB Rev. 1.1, Hannibal Edition.**
+**Development snapshot: October 2026 — MVP · Linux 7.1.0 · MainPCB Rev. 1.1, Hannibal Batch.**
 
 The system boots into a mobile Linux desktop, supports navigation and web browsing, and has working Wi-Fi and cellular telephony. GPU acceleration is working, and camera capture and autofocus are under active development.
 
@@ -73,7 +68,7 @@ See the [project documentation](https://docs.dawndrums.tn/docs/Current_state) fo
 
 ## Hardware
 
-### MainPCB — Rev. 1.1, Hannibal Edition
+### MainPCB — Rev. 1.1, Hannibal Batch
 
 <img alt="Divine D. MainPCB Rev. 1.1" src="https://github.com/dawndrums/divine/blob/main/d._/assets/rev1.1/MainPCB_Rev1.1.png" width="800" />
 
