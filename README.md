@@ -1,176 +1,169 @@
 <div align="center">
-<a href="https://dawndrums.tn"><img title="dawndrums" src="assets/dd_logo_v2.png" width="70%"/></a>
 
-<span style="color: #e1ba66;">As the drums of awakening echo through the dawn, let technology be the rhythm that enhances our freedom, guiding us towards a brighter tomorrow</span>
+<a href="https://dawndrums.tn"><img title="dawndrums" alt="dawndrums" src="assets/dd_logo_v2.png" width="70%" /></a>
+As the drums of awakening echo through the dawn, let technology be the rhythm that enhances our freedom, guiding us towards a brighter tomorrow
+# Divine D.
 
 
-[![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/HVb5jNBTRH)
-[![Matrix.org](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=fff)](https://matrix.to/#/#dawndrums-r2:matrix.org)
+
+
+
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](#license)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/HVb5jNBTRH)
+[![Matrix](https://img.shields.io/badge/Matrix-000?logo=matrix&logoColor=fff)](https://matrix.to/#/#dawndrums-r2:matrix.org)
 [![Mastodon](https://img.shields.io/badge/Mastodon-000?logo=mastodon&logoColor=fff)](https://mastodon.social/@dawndrums)
 
+[Website](https://dawndrums.tn) · [Documentation](https://docs.dawndrums.tn/docs/Current_state) · [DawnOS](https://github.com/dawndrums/dawnos/)
 
-
-<p float="center">
-<img src="https://github.com/dawndrums/divine/blob/main/d._/assets/dd.rev1.jpg" width="50%" object-fit="cover"/>
-</p>
-<sub>
-  Divine D.
-</sub>
 </div>
 
+## Divine D.
 
-## Table of content
+**A Mobile Linux System.**
 
-- [Divine](#divine)
-  - [Table of content](#table-of-content)
-  - [Overview](#overview)
-  - [Features](#features)
-    - [Hardware](#hardware)
-      - [PCB](#pcb)
-      - [Body](#body)
-    - [Software](#software)
-      - [DawnOS](#dawnos)
-      - [Desktop UIs](#ui)
-      - [Kernel and Drivers](#kernel)
-  - [Current state](#current-state)
-  - [Licence GPL-3.0](#licence-gpl-30)
-  - Support
+![Divine D.](https://github.com/dawndrums/divine/raw/refs/heads/main/d._/assets/rev1.1/dd.rev1.1.jpg)
+Our first assembled Divine D. with mainPCB Rev. 1.1 video is now public: booting, navigating the interface, and browsing on the device.
+
+[![Watch Divine D. running native Linux](https://img.youtube.com/vi/G_B7cwbMqq8/hqdefault.jpg)](https://youtu.be/G_B7cwbMqq8)
+
+**[Watch the demo on YouTube →](https://youtu.be/G_B7cwbMqq8)**
+
+Divine D. is a working minimum viable product (MVP). The demo marks a milestone in bringing the hardware and software together; reliability, power management, and production readiness remain active development priorities.
 
 ## Overview
 
-Divine is an open-source mobile system running a native Linux distribution [DawnOS](https://www.github.com/dawndrums/dawnos/).
-Divine is powered with the SoC RK3588S, an octa-core and highly capable SoC with Armv8 architecture and 8 nm process. The D. variant known as "Divine D." focuses on delivering 
-a system that's also for developing purposes and tests, much like a development kit, except that it comes as a fully functional mobile system. Yes, it runs "Doom" and makes calls.
-For the first time, an open-source mobile system brings local AI to its set of applications.
-With the integrated 3-core NPU and up to 32 GB of RAM. Divine D. is able to run LLMs and smaller models Offline and Local, pushing private and portable AI to unprecedented level.
-The RK3588S features a set of high performance subsystems, most notably the Mali GPU and the VPU up to 8k of video playback. 
-Divine D. comes currently with dual-cameras, front (12 MP, imx-378) and rear (48MP imx-586) Sony® sensors to provide excellent image quality for low-light and color accuracy.
-We bring also the world-class DAC, Cirrus CS43131, a tiny and mighty audio processor for excellent high fidelity Music playback on the 3.5 mm jack.
-An additional audio codec takes care of routing audio to a set of stereo speakers, dual-microphone and an earpiece.
-Divine D. supports currently fast charging up to 27 W (9V 3A) with Power-delivery protocol over USB-C, which supports display-port for external display as well as USB3/USB2 data transfer.
-An AMOLED, 5.5" 1080P screen is accommodated for lively colors and deep blacks. 
+Divine D. is an open-source, close-to-mainline mobile Linux system running Linux kernel **7.1.0**, built around the Rockchip RK3588S. It combines a custom mainboard, a touchscreen, cellular connectivity, and accessible hardware interfaces in a portable enclosure.
 
-Being a portable device, the power consumption is always a concern and we're committed to optimize and balance out power consumption and performance.
-We intend to use a high capacity battery, depending on the final body size.
-The RK3588S can a already dynamically perform in an on-demand scheme with respect to the load and ultimately can enter suspend to demand less than 80 mA @ 4.2V.
-The system can effectively enter suspend while being able to accept calls and SMS (duty-cycled RF). We work also here to make this as stable as possible.
+We design the MainPCB and assemble the devices in-house. Our goal is to make a mobile system that people can use, understand, modify, and develop for—from Linux applications and desktop interfaces to drivers and hardware accessories.
 
-Divine D. can now be interfaced with other accessories through a pogo interface, exposing several buses, including USB2, debug UART, I2C, JTAG, I²C and GPIOs.
-This enables a wide range of connected devices and can directly interact with the Divine D. system.
-Rev. 1.1 of the Divine D. introduces LoRa connectivity, microSD express, and HDMI output, elevating the open-source smartphone to a new level.
+[DawnOS](https://github.com/dawndrums/dawnos/) is our ongoing software integration effort, based on Mobian/Debian. Divine D. runs native Linux with access to the Debian software ecosystem. Development includes Plasma Mobile and Phosh, alongside device-specific kernel, driver, and userspace work.
 
-While the hardware features provide interesting capabilities, the software needs to be on point to take advantage of all that. This is also part of our commitment for DawnOS.
-We currently have a system that enters desktop UI, connects to WIFI/4G, makes calls and comes with working drivers such a 3D and video acceleration.
-Together with the community, we continuously work to add new features and improve the overall stability and robustness.
-Please refer the [Current state](#current-state) for more details.
+The platform also provides room to explore on-device AI, camera processing, multimedia, and hardware expansion. Support depends on the relevant drivers and applications, hardware capability alone does not imply a finished software feature.
 
-We chose mobian as our base for its initial stability with support for Phosh and Plasma Mobile UIs. It provides access to a plethora of applications in the Debian repositories.
-This work is coming to life thanks to us at dawndrums :) and the commitment of the open-source community and vendors who promote technological freedom.
-At the time of writing, this is the World's most powerful and free open-source mobile system.
+## Contents
 
-PS: We're available on several channels. You can also contact us by writing to contact@dawndrums.tn.
+- [Current status](#current-status)
+- [Hardware](#hardware)
+- [Software](#software)
+- [Development priorities](#development-priorities)
+- [Contributing](#contributing)
+- [Community and contact](#community-and-contact)
+- [Support](#support)
+- [License](#license)
 
-## Features (Divine D.)
+## Current status
 
-### Hardware
+**Development snapshot: October 2026 — MVP · Linux 7.1.0 · MainPCB Rev. 1.1, Hannibal Edition.**
 
-#### MainPCB, Hannibal batch Rev. 1.1
-<kbd><img title="Rev1.1" src="https://github.com/dawndrums/divine/blob/main/d._/assets/rev1.1/MainPCB_Rev1.1.png"/></kbd>
-<sub>
-Divine D. Rev. 1.1
-</sub>
-- A 10-layer HDI board
-- Processor: RK3588S, 4x Cortex-A76 @ 2.4 GHz, 4x Cortex-A55 core @ 1.8 GHz
-- RAM: LPDDR4x, 8 GB, 16 GB, 32 GB
-- GPU: Arm Mali-G610 "Odin"
-- VPU: Video decoder – 8Kp60 H.265, VP9, AVS2, 8Kp30 H.264 AVC/MVC, 4Kp60 AV1, 1080p60 MPEG-2/-1, VC-1, VP8 Video encoder – 8Kp30 H.265/H.264 video encoder
-- 3x NPU Cores, 6 TFLOPS 
-- eMMC 64 GB, 128 GB, 256 GB
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) microSD Express with backward compatibility
-- AP6275P WIFI 6, Bluetooth 5.3
-- Ports: USB-C, 3.5 mm Jack
-- 5A battery fast charger
-- USB-C PD controller
-- Fuel-gauge
-- Positioning: GNSS, Galileo
-- Audio: ES8388, CS43131
-- Dual Audio amplifiers
-- 6-axis MEMS IMU, Gyroscope and Accelerometer
-- Dual Camera interfaces
-- Dual MIPI interfaces
-- Dual Microphones
-- Debug: USB Maskrom, UART and JTAG/SWD
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) M.2 3042 Interface for 4G/GSM
-- Proximity and light sensor
-- Earpiece interface
-- Hardware kill-switches for cameras, microphones, connectivity
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) LoRa Module
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Micro HDMI
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Under-voltage battery monitor
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) 18-pin Pogo Interface
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Haptic Engine
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Power switches
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Battery switch
-- ![New](https://img.shields.io/badge/New-6a0fa1?logo=breaking-change&logoColor=0) Indicator and IR LEDs
+The system boots into a mobile Linux desktop, supports navigation and web browsing, and has working Wi-Fi and cellular telephony. GPU acceleration is working, and camera capture and autofocus are under active development.
 
+| Area | Status and remaining work |
+| --- | --- |
+| Boot and desktop | Working; continued integration and stability testing |
+| Wi-Fi and cellular | Working connectivity and telephony; regression testing remains important |
+| Graphics | Working GPU acceleration; ongoing performance and power tuning |
+| Camera | Capture and autofocus development in progress; tuning, responsiveness, and still-image workflow need further work |
+| Battery and power | Ongoing work on battery reporting, usable runtime, charging, and suspend/resume reliability |
+| Updates and recovery | A repeatable update and restore process is a development priority |
+| Hardware and enclosure | Rev. 1.1 is the current development platform; further revisions and mechanical refinements are being evaluated |
 
-#### Body
-- Screen: 5.5" AMOLED, 1080x1920 pixels
-- Front Camera: 12 MPixels Sony IMX-378 Front Camera
-- Rear Camera: 48 MPixels, Sony IMX-586 Rear Camera
-- Battery: TBD
-- Volume Up/Down and Power button
-- Stereo speakers
-- 3D printable enclosure
-- Dimensions: TBD
-- Weight: TBD
+This is not yet a production release. Features are being tested as a complete system, and software support varies by component and kernel branch.
 
+See the [project documentation](https://docs.dawndrums.tn/docs/Current_state) for detailed status and development notes.
 
-### Software
-#### DawnOS (WIP)
-- Native Linux® based on mobian/debian
-- Security and Privacy by design
-- Phosh and Plasma mobile desktop UIs
-- Device Tree configuration
-- Custom Kernel based on vendor Kernel 6.x.x and soon the [upcoming Mainline Kernel](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/notes-for-rockchip-3588/-/blob/main/mainline-status.md)
-- U-boot 2017.09
-#### Desktop UIs
+## Hardware
 
-We have tested several desktop UIs, including KDE, Gnome.. A the moment we will further conduct improvement on DawnOS with Phosh UI.
-It works with wayland and we encountered the least issues with it. Phosh also seems to demand less resources compared for example to Plasma Mobile.
-The latter will not be excluded from improvements but it seems it needs some more optimizations. Plasma home screen is more flexible and features attractive UI.
-Depending on our workload we will occasionality issue fixes but priority will go to Phosh-based DawnOS.
+### MainPCB — Rev. 1.1, Hannibal Edition
 
-#### Kernel and Drivers
+<img alt="Divine D. MainPCB Rev. 1.1" src="https://github.com/dawndrums/divine/blob/main/d._/assets/rev1.1/MainPCB_Rev1.1.png" width="800" />
 
-At the time we started with divine development, the vendor kernels such as Armbian and Radxa provided kernels that supported RK3588(S) based boards.
-These kernels come with certain driver support and were more suitable to use than mainline kernel.
-The current kernel version used for DawnOS is 6.1.x coming with our patches, configuration and device tree to support divine hardware.
-Recent changes on the mainline kernel brought several improvements and driver support and is becoming more mature to be adopted for the next iterations of DawnOS.
-Please refer to our doc pages for the latest changes.
+The following describes the board design and configuration options. It is not a claim that every interface is fully enabled or validated in the current software image.
 
-### Current state
+| Component | Design / configuration |
+| --- | --- |
+| Mainboard | Custom 10-layer HDI PCB |
+| Processor | Rockchip RK3588S; 4× Cortex-A76 and 4× Cortex-A55 |
+| Memory | LPDDR4X; current development unit: 8 GB; design options include 16 GB and 32 GB |
+| Storage | eMMC; current development unit: 32 GB; design options include 64 GB, 128 GB and 256 GB |
+| Graphics | Arm Mali-G610 GPU |
+| Compute and multimedia | Integrated NPU and video processing hardware; support depends on the software stack |
+| Wireless | AP6275P Wi-Fi / Bluetooth module; M.2 3042 interface for cellular modem; LoRa |
+| Storage expansion | microSD Express interface with legacy microSD compatibility in the design |
+| Display and ports | MIPI display interfaces, USB-C, Micro HDMI, and 3.5 mm audio jack |
+| Audio | ES8388 codec, CS43131 DAC, dual amplifiers, dual microphone and earpiece interfaces |
+| Sensors and feedback | Six-axis IMU, proximity and ambient-light sensing, haptic driver, LED indicators and IR LED |
+| Power | Battery charger, USB-C PD controller, fuel gauge, under-voltage monitor, and power/battery switches |
+| Hardware controls | Kill-switches for cameras, microphones, and connectivity |
+| Expansion | 18-pin pogo interface for accessories and development |
+| Debug | USB Maskrom, UART, and JTAG/SWD interfaces |
 
-There is always work in progress, whether we issue fixes and improvements or add new features.
-Right now the system boots to home screen. GPU and VPU acceleration are working.
+Charging rates, display-output modes, expansion interfaces, and multimedia capabilities require validation in the complete device. Final supported configurations will be documented as testing progresses.
 
-<kbd><img title="HW" src="https://github.com/dawndrums/divine/blob/main/d._/assets/IMG_4082.jpeg"/></kbd>
+### Display, cameras, and enclosure
 
-We faced some issues with different components, such as PCB design or functionality errors.
-These are considered to be fixed in the next design iteration.
+- **Display:** 5.5-inch AMOLED, 1080 × 1920 pixels.
+- **Rear camera:** Sony IMX586, 48 MP sensor; usable capture modes depend on the driver and camera pipeline.
+- **Front camera:** Sony IMX378, 12 MP sensor in the hardware design; software support is tracked separately.
+- **Controls:** Power and volume buttons.
+- **Audio:** Stereo speakers and a 3.5 mm jack.
+- **Enclosure:** 3D-printable design under continued mechanical refinement.
+- **Battery, final dimensions, and weight:** To be finalized for the release configuration.
 
-For the divine and DawnOS projects, please refer to our [docs](https://docs.dawndrums.tn/docs/Current_state) for in-depth changes and the actual status.
+## Software
 
+### DawnOS
 
-## Licence GPL-3.0
+DawnOS brings together the distribution, device support, and mobile user experience for Divine D. It is based on Mobian/Debian and remains a work in progress.
 
-This work is licenced under GPL-3.0 Licence.
+- Native Linux applications and Debian packages.
+- Wayland-based mobile interfaces, including Plasma Mobile and Phosh.
+- Device-specific kernel configuration, device trees, and driver integration.
+- Ongoing camera, audio, telephony, and power-management work.
 
-## Support 
-We use the contributions to support us manufacture prototypes, maintain software and CI/CD infrastructure as well as development costs for software and hardware.
-You can contribute though Liberapay:
+### Kernel and drivers
 
-[![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/dawndrums/donate)
+Divine D. runs Linux kernel **7.1.0** on a **close-to-mainline** kernel base. Development has progressed beyond the original vendor-kernel bring-up, while retaining device-specific patches needed to support the hardware. Hardware enablement includes graphics, sensors, power management, and the camera stack; the close-to-mainline designation does not mean that all device support has been merged upstream.
 
-If you wish to have different means of payment, please reach out to contact@dawndrums.tn.
+Exact kernel versions, patch sets, and component support should be checked against the relevant source branch and [development documentation](https://docs.dawndrums.tn/docs/Current_state).
+
+Divine D. builds on the work of the Linux, Debian, Mobian, KDE, Phosh, Mesa, libcamera, U-Boot, and wider open-source communities. Thank you to everyone contributing upstream and helping bring open mobile hardware to life.
+
+## Development priorities
+
+Our next milestone is a more reliable and reproducible system that contributors can test and develop against.
+
+1. **Power and battery:** Improve battery reporting, discharge behavior, charging, runtime, and suspend/resume reliability.
+2. **Updates and recovery:** Establish a tested installation, update, and restore workflow.
+3. **Core functionality:** Reduce regressions in telephony, networking, audio, and everyday interaction.
+4. **Camera:** Improve capture reliability, autofocus, image tuning, and the still-image workflow.
+5. **Hardware readiness:** Validate revisions, refine the enclosure, and document assembly and testing.
+6. **Community development:** Publish reproducible instructions and use testing feedback to guide priorities.
+
+## Contributing
+
+Contributions are welcome across kernel and driver work, mobile applications, testing, documentation, hardware, and enclosure design.
+
+- Report bugs through **GitHub issues**, including the hardware revision, software image or commit, reproduction steps, and relevant logs.
+- Discuss substantial changes before starting implementation so we can coordinate work.
+- Submit focused pull requests with a clear explanation of the change and how it was tested.
+- Share which use cases and improvements matter most to you through our community channels.
+
+## Community and contact
+
+- [Discord](https://discord.gg/HVb5jNBTRH)
+- [Matrix](https://matrix.to/#/#dawndrums-r2:matrix.org)
+- [Mastodon](https://mastodon.social/@dawndrums)
+- [Website](https://dawndrums.tn)
+- Email: [contact@dawndrums.tn](mailto:contact@dawndrums.tn)
+
+## Support
+
+Donations help fund prototype manufacturing, hardware and software development, testing, and infrastructure.
+
+[![Donate via Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/dawndrums/donate)
+
+For other ways to support the project, contact [contact@dawndrums.tn](mailto:contact@dawndrums.tn).
+
+## License
+
+This project is licensed under GPL-3.0. See the license text and any file-specific notices in the repository for the applicable terms.
