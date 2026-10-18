@@ -30,7 +30,7 @@ Divine D. is a working minimum viable product (MVP). The demo marks a milestone 
 
 Divine D. is an open-source, close-to-mainline mobile Linux system running Linux kernel **7.1.0**, built around the Rockchip RK3588S. It combines a custom mainboard, a touchscreen, cellular connectivity, and accessible hardware interfaces in a portable enclosure.
 
-We design the MainPCB and assemble the devices in-house. Our goal is to make a mobile system that people can use, understand, modify, and develop for—from Linux applications and desktop interfaces to drivers and hardware accessories.
+We design the MainPCB and assemble the devices in-house. Our goal is to make a mobile system that people can use, understand, modify, and develop for, from Linux applications and desktop interfaces to drivers and hardware accessories.
 
 [DawnOS](https://github.com/dawndrums/dawnos/) is our ongoing software integration effort, based on Mobian/Debian. Divine D. runs native Linux with access to the Debian software ecosystem. Development includes Plasma Mobile and Phosh, alongside device-specific kernel, driver, and userspace work.
 
